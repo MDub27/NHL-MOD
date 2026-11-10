@@ -1,0 +1,44 @@
+name: NHL 4.5 V2 Manual
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'NHL game date YYYY-MM-DD (leave blank for today UTC)'
+        required: false
+        type: string
+      mode:
+        description: 'predict, backtest or evaluate'
+        required: true
+        default: predict
+        type: choice
+        options:
+          - predict
+          - backtest
+          - evaluate
+
+permissions:
+  contents: read
+
+jobs:
+  model:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run V2
+        env:
+          TARGET_DATE: ${{ inputs.date }}
+          RUN_MODE: ${{ inputs.mode }}
+        run: |
+          if [ -z "$TARGET_DATE" ]; then TARGET_DATE="$(date -u +%F)"; fi
+          python nhl_v2.py --date "$TARGET_DATE" --mode "$RUN_MODE"
+      - name: Save results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nhl-v2-${{ inputs.mode }}-${{ github.run_id }}
+          path: output/
+          if-no-files-found: warn
