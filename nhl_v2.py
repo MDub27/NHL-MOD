@@ -99,9 +99,9 @@ def main():
     all_games={}
     for yr in range(args.first_season,v1.season(target)+1):
         for g in v1.collect(yr,args.refresh):
-            if g["date"]<args.date:
+            if g["date"]<=args.date:
                 all_games[g["id"]]=g
-    history=sorted(all_games.values(),key=lambda g:(g["date"],g["id"]))
+    history=sorted((g for g in all_games.values() if g["date"]<args.date),key=lambda g:(g["date"],g["id"]))\n    evaluation_history=sorted(all_games.values(),key=lambda g:(g["date"],g["id"]))
     rows=historical_rows(history,args.backtest_from)
     if args.mode=="backtest":
         params,holdout=split_and_fit(rows,args.train_end,args.validation_end)
@@ -134,7 +134,7 @@ def main():
         return
     # Historical evaluation uses the predictions generated without same-day results.
     # It is NOT a verification of a previously saved live prediction artifact.
-    day=[r for r in rows if r["date"]==args.date]
+    day=[r for r in historical_rows(evaluation_history,args.backtest_from) if r["date"]==args.date]
     params=fit_calibrator([r for r in rows if r["date"]<args.date])
     scored=[{**r,"calibrated_probability":calibrated(r["probability_over_4_5"],params)} for r in day]
     write_csv(OUT/"evaluation.csv",scored,
