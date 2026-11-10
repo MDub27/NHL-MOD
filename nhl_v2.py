@@ -101,7 +101,8 @@ def main():
         for g in v1.collect(yr,args.refresh):
             if g["date"]<=args.date:
                 all_games[g["id"]]=g
-    history=sorted((g for g in all_games.values() if g["date"]<args.date),key=lambda g:(g["date"],g["id"]))\n    evaluation_history=sorted(all_games.values(),key=lambda g:(g["date"],g["id"]))
+    history=sorted((g for g in all_games.values() if g["date"]<args.date),key=lambda g:(g["date"],g["id"]))
+    evaluation_history=sorted(all_games.values(),key=lambda g:(g["date"],g["id"]))
     rows=historical_rows(history,args.backtest_from)
     if args.mode=="backtest":
         params,holdout=split_and_fit(rows,args.train_end,args.validation_end)
