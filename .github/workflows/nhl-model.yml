@@ -1,0 +1,34 @@
+name: NHL 4.5 Model
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 16 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run NHL prediction model
+        run: python nhl_model.py
+
+      - name: Save prediction results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nhl-predictions
+          path: output/
+          if-no-files-found: warn
