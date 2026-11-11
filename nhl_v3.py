@@ -136,7 +136,7 @@ def analyze(payload):
                             float(payload.get("fee_fraction",0)))
     values=[g["total"] for g in games]
     values.sort()
-    ranked=sorted((c for c in choices if "expected_net_return_per_unit" in c),
+    ranked=sorted((c for c in choices if c.get("expected_net_return_per_unit", -1) > 0),
                   key=lambda x:x["expected_net_return_per_unit"],reverse=True)
     return {"as_of":payload["as_of"],"source_timestamp_utc":payload["source_timestamp_utc"],
             "matchup":f'{away["name"]} @ {home["name"]}',
@@ -148,6 +148,7 @@ def analyze(payload):
                           "minimum":values[0],"maximum":values[-1]},
             "teased_markets":choices,
             "best_value":ranked[0]["side"] if ranked else None,
+            "decision": "candidate_positive_ev" if ranked else "no_positive_ev_or_missing_prices",
             "warning":"Exploratory: player coefficients, dispersion and goalie effects are not empirically fitted. Prices and lineup must be verified externally."}
 
 def main():
