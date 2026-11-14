@@ -115,8 +115,8 @@ def fit(rows, train_end, calibration_end):
 
 
 def score(fitted, rows):
-    p = probabilities(fitted['full'], rows, list(range(len(FEATURES))))
-    calibrated = fitted['calibrator'].predict_proba(logit(p).reshape(-1, 1))[:, 1]
+    p = np.clip(probabilities(fitted['full'], rows, list(range(len(FEATURES)))), 1e-6, 1-1e-6)
+    calibrated = np.clip(fitted['calibrator'].predict_proba(logit(p).reshape(-1, 1))[:, 1], 1e-6, 1-1e-6)
     return {'moneyline_raw': p, 'moneyline_calibrated': calibrated,
             'goals_only': probabilities(fitted['basic'], rows, GOALS_ONLY),
             'home_rate': np.repeat(fitted['home_prior'], len(rows)),
@@ -148,10 +148,15 @@ def backtest(rows):
         raise ValueError('Incomplete 2025-26 chronological holdout')
     predictions = score(fitted, test)
     y = [r['y'] for r in test]
-    return {'protocol': {'train': 'before 2024-07-01', 'calibration': '2024-07-01 to 2025-06-30',
+    evaluated = {name: metrics(y, p) for name, p in predictions.items()}
+    beats_basic = all(evaluated['moneyline_calibrated'][m] < evaluated['goals_only'][m] for m in ['brier','log_loss'])
+    return {'release_status': 'experimental; one-season validation only',
+            'beats_goals_only_on_brier_and_log_loss': beats_basic,
+            'promotion_warning': None if beats_basic else 'Richer ML model does not beat the goals/rest-only baseline. Do not treat feature complexity as evidence of better forecasts.',
+            'protocol': {'train': 'before 2024-07-01', 'calibration': '2024-07-01 to 2025-06-30',
                          'test': '2025-07-01 to 2026-06-30', 'train_games': fitted['train_games'],
                          'calibration_games': fitted['calibration_games']},
-            'metrics': {name: metrics(y, p) for name, p in predictions.items()},
+            'metrics': evaluated,
             'limitations': ['Single untouched season holdout; no market-price or profitability test.',
                             'MoneyPuck historical xG is a current retrospective snapshot, not point-in-time archived xG.',
                             'Goalies, injuries and travel are not model inputs. Home advantage is learned by the intercept.']}, [
