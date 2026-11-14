@@ -1,0 +1,17 @@
+test_chronological_holdout_not_used_for_fitting (test_nhl_v2.CalibrationTests.test_chronological_holdout_not_used_for_fitting) ... ok
+test_empty_validation (test_nhl_v2.CalibrationTests.test_empty_validation) ... ok
+test_identity_with_insufficient_training (test_nhl_v2.CalibrationTests.test_identity_with_insufficient_training) ... ok
+test_probability_bounds_and_metrics (test_nhl_v2.CalibrationTests.test_probability_bounds_and_metrics) ... FAIL
+
+======================================================================
+FAIL: test_probability_bounds_and_metrics (test_nhl_v2.CalibrationTests.test_probability_bounds_and_metrics)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/runner/work/NHL-MOD/NHL-MOD/tests/test_nhl_v2.py", line 27, in test_probability_bounds_and_metrics
+    self.assertLess(calibrated(.999999,{"intercept":0,"slope":1}),1)
+AssertionError: 1.0 not less than 1
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+FAILED (failures=1)

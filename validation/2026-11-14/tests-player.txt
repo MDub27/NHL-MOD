@@ -1,0 +1,8 @@
+test_as_of_excludes_same_day (test_player_features.PlayerFeatureTests.test_as_of_excludes_same_day) ... ok
+test_lineup_aggregate (test_player_features.PlayerFeatureTests.test_lineup_aggregate) ... ok
+test_lineup_requires_explicit_players (test_player_features.PlayerFeatureTests.test_lineup_requires_explicit_players) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

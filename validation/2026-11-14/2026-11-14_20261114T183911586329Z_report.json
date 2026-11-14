@@ -1,0 +1,2060 @@
+{
+  "date": "2026-11-14",
+  "generated_at_utc": "2026-11-14T18:39:11.586329+00:00",
+  "games": [
+    {
+      "id": "2026020321",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-14T18:00:00Z",
+      "home": "CAR",
+      "away": "SEA",
+      "state": "LIVE",
+      "game_type": 2,
+      "expected_goals": 6.307,
+      "probability_over_4_5": 0.75388,
+      "start_pacific": "2026-11-14T10:00:00-08:00",
+      "original_over45": 0.75388,
+      "calibrated_over45": 0.79142,
+      "home_ml_raw": 0.7728366956585202,
+      "home_ml": 0.6679807206656958,
+      "away_ml": 0.3320192793343042,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": false,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases.",
+        "Already started/completed or not scheduled to start; date-cutoff reconstruction, not a pregame forecast."
+      ]
+    },
+    {
+      "id": "2026020312",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-14T20:30:00Z",
+      "home": "CHI",
+      "away": "WPG",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.094,
+      "probability_over_4_5": 0.72733,
+      "start_pacific": "2026-11-14T12:30:00-08:00",
+      "original_over45": 0.72733,
+      "calibrated_over45": 0.78196,
+      "home_ml_raw": 0.4066395905558856,
+      "home_ml": 0.43318415670126625,
+      "away_ml": 0.5668158432987338,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020313",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T00:00:00Z",
+      "home": "BOS",
+      "away": "MIN",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.062,
+      "probability_over_4_5": 0.72319,
+      "start_pacific": "2026-11-14T16:00:00-08:00",
+      "original_over45": 0.72319,
+      "calibrated_over45": 0.78051,
+      "home_ml_raw": 0.4544197779208766,
+      "home_ml": 0.46231074450955845,
+      "away_ml": 0.5376892554904416,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020314",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T00:00:00Z",
+      "home": "TOR",
+      "away": "EDM",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.504,
+      "probability_over_4_5": 0.77678,
+      "start_pacific": "2026-11-14T16:00:00-08:00",
+      "original_over45": 0.77678,
+      "calibrated_over45": 0.79987,
+      "home_ml_raw": 0.3322504259412091,
+      "home_ml": 0.38644633283749896,
+      "away_ml": 0.613553667162501,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020315",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T00:00:00Z",
+      "home": "MTL",
+      "away": "COL",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.446,
+      "probability_over_4_5": 0.77022,
+      "start_pacific": "2026-11-14T16:00:00-08:00",
+      "original_over45": 0.77022,
+      "calibrated_over45": 0.79742,
+      "home_ml_raw": 0.41324766414980946,
+      "home_ml": 0.4372407298855931,
+      "away_ml": 0.5627592701144069,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020316",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T00:00:00Z",
+      "home": "TBL",
+      "away": "DET",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.498,
+      "probability_over_4_5": 0.77609,
+      "start_pacific": "2026-11-14T16:00:00-08:00",
+      "original_over45": 0.77609,
+      "calibrated_over45": 0.79961,
+      "home_ml_raw": 0.6541818529463842,
+      "home_ml": 0.5852838102742399,
+      "away_ml": 0.4147161897257601,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020317",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T00:00:00Z",
+      "home": "PIT",
+      "away": "OTT",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.47,
+      "probability_over_4_5": 0.77292,
+      "start_pacific": "2026-11-14T16:00:00-08:00",
+      "original_over45": 0.77292,
+      "calibrated_over45": 0.79843,
+      "home_ml_raw": 0.46215925886144593,
+      "home_ml": 0.4669954831676163,
+      "away_ml": 0.5330045168323837,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020318",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T00:00:00Z",
+      "home": "WSH",
+      "away": "NJD",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.267,
+      "probability_over_4_5": 0.74907,
+      "start_pacific": "2026-11-14T16:00:00-08:00",
+      "original_over45": 0.74907,
+      "calibrated_over45": 0.78968,
+      "home_ml_raw": 0.45468083820296973,
+      "home_ml": 0.46246886594280695,
+      "away_ml": 0.5375311340571931,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020319",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T00:00:00Z",
+      "home": "CBJ",
+      "away": "PHI",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.173,
+      "probability_over_4_5": 0.73744,
+      "start_pacific": "2026-11-14T16:00:00-08:00",
+      "original_over45": 0.73744,
+      "calibrated_over45": 0.78552,
+      "home_ml_raw": 0.5366632286794136,
+      "home_ml": 0.5120367711185484,
+      "away_ml": 0.4879632288814516,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020320",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T00:00:00Z",
+      "home": "STL",
+      "away": "FLA",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 5.928,
+      "probability_over_4_5": 0.70513,
+      "start_pacific": "2026-11-14T16:00:00-08:00",
+      "original_over45": 0.70513,
+      "calibrated_over45": 0.77427,
+      "home_ml_raw": 0.5469060716850207,
+      "home_ml": 0.5182624432345092,
+      "away_ml": 0.4817375567654908,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020322",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T01:00:00Z",
+      "home": "DAL",
+      "away": "BUF",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.353,
+      "probability_over_4_5": 0.75946,
+      "start_pacific": "2026-11-14T17:00:00-08:00",
+      "original_over45": 0.75946,
+      "calibrated_over45": 0.79345,
+      "home_ml_raw": 0.6347145049667281,
+      "home_ml": 0.572771553407484,
+      "away_ml": 0.427228446592516,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020323",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T02:00:00Z",
+      "home": "UTA",
+      "away": "SJS",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.271,
+      "probability_over_4_5": 0.74961,
+      "start_pacific": "2026-11-14T18:00:00-08:00",
+      "original_over45": 0.74961,
+      "calibrated_over45": 0.78987,
+      "home_ml_raw": 0.6775627299748099,
+      "home_ml": 0.6006097750795948,
+      "away_ml": 0.3993902249204052,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020324",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T03:00:00Z",
+      "home": "ANA",
+      "away": "NYI",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 6.451,
+      "probability_over_4_5": 0.77074,
+      "start_pacific": "2026-11-14T19:00:00-08:00",
+      "original_over45": 0.77074,
+      "calibrated_over45": 0.79761,
+      "home_ml_raw": 0.6244053868201782,
+      "home_ml": 0.5662243001068434,
+      "away_ml": 0.43377569989315656,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    },
+    {
+      "id": "2026020325",
+      "date": "2026-11-14",
+      "start_utc": "2026-11-15T03:00:00Z",
+      "home": "LAK",
+      "away": "CGY",
+      "state": "FUT",
+      "game_type": 2,
+      "expected_goals": 5.874,
+      "probability_over_4_5": 0.69776,
+      "start_pacific": "2026-11-14T19:00:00-08:00",
+      "original_over45": 0.69776,
+      "calibrated_over45": 0.77175,
+      "home_ml_raw": 0.6700852003499603,
+      "home_ml": 0.5956694189044497,
+      "away_ml": 0.4043305810955503,
+      "home_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "away_goalie": {
+        "name": null,
+        "status": "unconfirmed"
+      },
+      "pregame_eligible": true,
+      "data_quality": {
+        "home_history_games": 50,
+        "away_history_games": 50,
+        "home_xg_games": 50,
+        "away_xg_games": 50
+      },
+      "confidence": "provisional; see holdout validation and data warnings",
+      "warnings": [
+        "Starting goalies unconfirmed; goalie performance, injuries and travel excluded.",
+        "MoneyPuck xG reflects the downloaded historical snapshot, not archived pregame releases."
+      ]
+    }
+  ],
+  "top_five_over45": [
+    {
+      "game_id": "2026020314",
+      "away": "EDM",
+      "home": "TOR",
+      "probability": 0.79987
+    },
+    {
+      "game_id": "2026020316",
+      "away": "DET",
+      "home": "TBL",
+      "probability": 0.79961
+    },
+    {
+      "game_id": "2026020317",
+      "away": "OTT",
+      "home": "PIT",
+      "probability": 0.79843
+    },
+    {
+      "game_id": "2026020324",
+      "away": "NYI",
+      "home": "ANA",
+      "probability": 0.79761
+    },
+    {
+      "game_id": "2026020315",
+      "away": "COL",
+      "home": "MTL",
+      "probability": 0.79742
+    }
+  ],
+  "top_five_moneyline": [
+    {
+      "game_id": "2026020314",
+      "team": "EDM",
+      "probability": 0.613553667162501
+    },
+    {
+      "game_id": "2026020323",
+      "team": "UTA",
+      "probability": 0.6006097750795948
+    },
+    {
+      "game_id": "2026020325",
+      "team": "LAK",
+      "probability": 0.5956694189044497
+    },
+    {
+      "game_id": "2026020316",
+      "team": "TBL",
+      "probability": 0.5852838102742399
+    },
+    {
+      "game_id": "2026020322",
+      "team": "DAL",
+      "probability": 0.572771553407484
+    }
+  ],
+  "two_game_combinations": [
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020316:over45"
+      ],
+      "estimated_probability": 0.6395840507,
+      "joint_lower_bound": 0.59948,
+      "joint_upper_bound": 0.79961,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020317:over45"
+      ],
+      "estimated_probability": 0.6386402041,
+      "joint_lower_bound": 0.5983,
+      "joint_upper_bound": 0.79843,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020317:over45"
+      ],
+      "estimated_probability": 0.6384326123,
+      "joint_lower_bound": 0.5980400000000001,
+      "joint_upper_bound": 0.79843,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020324:over45"
+      ],
+      "estimated_probability": 0.6379843107000001,
+      "joint_lower_bound": 0.59748,
+      "joint_upper_bound": 0.79761,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.6378323354,
+      "joint_lower_bound": 0.5972900000000001,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020324:over45"
+      ],
+      "estimated_probability": 0.6377769321000001,
+      "joint_lower_bound": 0.5972200000000001,
+      "joint_upper_bound": 0.79761,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.6376250062000001,
+      "joint_lower_bound": 0.5970300000000002,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020317:over45",
+        "2026020324:over45"
+      ],
+      "estimated_probability": 0.6368357523,
+      "joint_lower_bound": 0.5960399999999999,
+      "joint_upper_bound": 0.79761,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020317:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.6366840506,
+      "joint_lower_bound": 0.59585,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020324:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.6360301662000001,
+      "joint_lower_bound": 0.59503,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    }
+  ],
+  "three_game_combinations": [
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020316:over45",
+        "2026020317:over45"
+      ],
+      "estimated_probability": 0.510663093600401,
+      "joint_lower_bound": 0.39791,
+      "joint_upper_bound": 0.79843,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020316:over45",
+        "2026020324:over45"
+      ],
+      "estimated_probability": 0.510138634678827,
+      "joint_lower_bound": 0.39708999999999994,
+      "joint_upper_bound": 0.79761,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020316:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.510017113709194,
+      "joint_lower_bound": 0.39690000000000003,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020317:over45",
+        "2026020324:over45"
+      ],
+      "estimated_probability": 0.509385813192201,
+      "joint_lower_bound": 0.39590999999999976,
+      "joint_upper_bound": 0.79761,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020317:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.509264471553422,
+      "joint_lower_bound": 0.39571999999999985,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020317:over45",
+        "2026020324:over45"
+      ],
+      "estimated_probability": 0.509220235896603,
+      "joint_lower_bound": 0.39564999999999984,
+      "joint_upper_bound": 0.79761,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020317:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.509098933700266,
+      "joint_lower_bound": 0.3954599999999999,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020324:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.508741449038394,
+      "joint_lower_bound": 0.3948999999999998,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020324:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.508576081195182,
+      "joint_lower_bound": 0.3946399999999999,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020317:over45",
+        "2026020324:over45",
+        "2026020315:over45"
+      ],
+      "estimated_probability": 0.507825565599066,
+      "joint_lower_bound": 0.39346000000000014,
+      "joint_upper_bound": 0.79742,
+      "assumption": "Independence across distinct games; shared risks not estimated",
+      "market_price": null,
+      "expected_value": null
+    }
+  ],
+  "same_game_combinations_bounds_only": [
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020314:EDM:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.4134236671625011,
+      "joint_upper_bound": 0.613553667162501,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.3848938102742401,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020316:over45",
+        "2026020314:EDM:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.21303366716250105,
+      "joint_upper_bound": 0.613553667162501,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020316:over45",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.18476381027423994,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020317:over45",
+        "2026020314:EDM:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.21185366716250087,
+      "joint_upper_bound": 0.613553667162501,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020324:over45",
+        "2026020314:EDM:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.21103366716250083,
+      "joint_upper_bound": 0.613553667162501,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020315:over45",
+        "2026020314:EDM:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.21084366716250091,
+      "joint_upper_bound": 0.613553667162501,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020314:EDM:ml",
+        "2026020323:UTA:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.014033442242095795,
+      "joint_upper_bound": 0.6006097750795948,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020314:EDM:ml",
+        "2026020325:LAK:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.009093086066950917,
+      "joint_upper_bound": 0.5956694189044497,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020314:EDM:ml",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.0,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020314:over45",
+        "2026020314:EDM:ml",
+        "2026020322:DAL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.0,
+      "joint_upper_bound": 0.572771553407484,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020317:over45",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.18332381027423983,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020324:over45",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.18250381027424023,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020315:over45",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.18231381027423987,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020314:EDM:ml",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.0,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020323:UTA:ml",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.0,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020325:LAK:ml",
+        "2026020316:TBL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.0,
+      "joint_upper_bound": 0.5852838102742399,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    },
+    {
+      "legs": [
+        "2026020316:over45",
+        "2026020316:TBL:ml",
+        "2026020322:DAL:ml"
+      ],
+      "estimated_probability": null,
+      "joint_lower_bound": 0.0,
+      "joint_upper_bound": 0.572771553407484,
+      "assumption": "Same-game dependence: no point estimate",
+      "market_price": null,
+      "expected_value": null
+    }
+  ],
+  "totals_calibration": {
+    "intercept": 0.87718985,
+    "slope": 0.40763015,
+    "trained_games": 2935,
+    "status": "fitted"
+  },
+  "moneyline_training": {
+    "home_prior": 0.5542715641766405,
+    "train_games": 2421,
+    "calibration_games": 1312,
+    "train_end_exclusive": "2025-07-01",
+    "calibration_end_exclusive": "2026-07-01"
+  },
+  "history_games": 4247,
+  "history_last_date": "2026-11-13",
+  "available_features": [
+    "goals for/against (last 50, shrunk)",
+    "recent goal differential (10 games)",
+    "MoneyPuck xG for/against (50) and recent xG differential (10)",
+    "home intercept",
+    "days rest (capped at 7)",
+    "back-to-back indicator"
+  ],
+  "planned_features": [
+    "verified starting goalies and historical pregame goalie GSAx",
+    "timestamped injuries",
+    "validated travel distance/timezones"
+  ],
+  "research_only": true,
+  "warnings": [
+    "Experimental ML candidate has not demonstrated superiority to the goals/rest-only baseline; no automatic model promotion.",
+    "Model probabilities are provisional estimates, not guaranteed win rates.",
+    "No market prices supplied: expected value is not evaluated.",
+    "Totals follow unchanged V1 official final-score convention; verify market overtime/shootout settlement rules.",
+    "Combinations exclude started games. Same-game selections have bounds only; do not multiply their probabilities."
+  ],
+  "sources": [
+    "NHL public schedule API",
+    "MoneyPuck.com team game-by-game xG (credited; non-commercial use)"
+  ],
+  "holdout_validation": {
+    "release_status": "experimental; one-season validation only",
+    "beats_goals_only_on_brier_and_log_loss": false,
+    "promotion_warning": "Richer ML model does not beat the goals/rest-only baseline. Do not treat feature complexity as evidence of better forecasts.",
+    "protocol": {
+      "train": "before 2024-07-01",
+      "calibration": "2024-07-01 to 2025-06-30",
+      "test": "2025-07-01 to 2026-06-30",
+      "train_games": 1109,
+      "calibration_games": 1312
+    },
+    "metrics": {
+      "moneyline_raw": {
+        "games": 1312,
+        "brier": 0.2487240513421092,
+        "log_loss": 0.6905229291650334,
+        "accuracy": 0.5358231707317073,
+        "mean_probability": 0.5431349728155832,
+        "actual_home_win_rate": 0.5221036585365854,
+        "expected_calibration_error": 0.05562942138854027,
+        "calibration_bins": [
+          {
+            "from": 0.2,
+            "to": 0.3,
+            "games": 9,
+            "mean_probability": 0.2734139173715191,
+            "actual_home_win_rate": 0.2222222222222222
+          },
+          {
+            "from": 0.3,
+            "to": 0.4,
+            "games": 93,
+            "mean_probability": 0.3635405920582635,
+            "actual_home_win_rate": 0.45161290322580644
+          },
+          {
+            "from": 0.4,
+            "to": 0.5,
+            "games": 364,
+            "mean_probability": 0.4551861614312333,
+            "actual_home_win_rate": 0.4945054945054945
+          },
+          {
+            "from": 0.5,
+            "to": 0.6,
+            "games": 435,
+            "mean_probability": 0.5497238501694672,
+            "actual_home_win_rate": 0.496551724137931
+          },
+          {
+            "from": 0.6,
+            "to": 0.7,
+            "games": 325,
+            "mean_probability": 0.6422998951371617,
+            "actual_home_win_rate": 0.563076923076923
+          },
+          {
+            "from": 0.7,
+            "to": 0.8,
+            "games": 85,
+            "mean_probability": 0.7288397246854766,
+            "actual_home_win_rate": 0.7176470588235294
+          },
+          {
+            "from": 0.8,
+            "to": 0.9,
+            "games": 1,
+            "mean_probability": 0.8066039137527456,
+            "actual_home_win_rate": 1.0
+          }
+        ]
+      },
+      "moneyline_calibrated": {
+        "games": 1312,
+        "brier": 0.24867422583242169,
+        "log_loss": 0.6904250915413933,
+        "accuracy": 0.5259146341463414,
+        "mean_probability": 0.5629334704519265,
+        "actual_home_win_rate": 0.5221036585365854,
+        "expected_calibration_error": 0.06856658272437445,
+        "calibration_bins": [
+          {
+            "from": 0.3,
+            "to": 0.4,
+            "games": 39,
+            "mean_probability": 0.3733229455705517,
+            "actual_home_win_rate": 0.3076923076923077
+          },
+          {
+            "from": 0.4,
+            "to": 0.5,
+            "games": 278,
+            "mean_probability": 0.4628151393549474,
+            "actual_home_win_rate": 0.5179856115107914
+          },
+          {
+            "from": 0.5,
+            "to": 0.6,
+            "games": 519,
+            "mean_probability": 0.5484610361041895,
+            "actual_home_win_rate": 0.4701348747591522
+          },
+          {
+            "from": 0.6,
+            "to": 0.7,
+            "games": 411,
+            "mean_probability": 0.6412485699959308,
+            "actual_home_win_rate": 0.5717761557177615
+          },
+          {
+            "from": 0.7,
+            "to": 0.8,
+            "games": 65,
+            "mean_probability": 0.7252626093630584,
+            "actual_home_win_rate": 0.7692307692307693
+          }
+        ]
+      },
+      "goals_only": {
+        "games": 1312,
+        "brier": 0.24701252025664774,
+        "log_loss": 0.6871849835462774,
+        "accuracy": 0.5457317073170732,
+        "mean_probability": 0.5430385355913708,
+        "actual_home_win_rate": 0.5221036585365854,
+        "expected_calibration_error": 0.03907999816868492,
+        "calibration_bins": [
+          {
+            "from": 0.2,
+            "to": 0.3,
+            "games": 2,
+            "mean_probability": 0.26657408341394045,
+            "actual_home_win_rate": 0.0
+          },
+          {
+            "from": 0.3,
+            "to": 0.4,
+            "games": 62,
+            "mean_probability": 0.3633724364994569,
+            "actual_home_win_rate": 0.3064516129032258
+          },
+          {
+            "from": 0.4,
+            "to": 0.5,
+            "games": 337,
+            "mean_probability": 0.458405827483474,
+            "actual_home_win_rate": 0.49258160237388726
+          },
+          {
+            "from": 0.5,
+            "to": 0.6,
+            "games": 568,
+            "mean_probability": 0.5496079807758666,
+            "actual_home_win_rate": 0.5246478873239436
+          },
+          {
+            "from": 0.6,
+            "to": 0.7,
+            "games": 303,
+            "mean_probability": 0.6388327814500269,
+            "actual_home_win_rate": 0.5808580858085809
+          },
+          {
+            "from": 0.7,
+            "to": 0.8,
+            "games": 38,
+            "mean_probability": 0.7253645541250521,
+            "actual_home_win_rate": 0.631578947368421
+          },
+          {
+            "from": 0.8,
+            "to": 0.9,
+            "games": 2,
+            "mean_probability": 0.8070183436756067,
+            "actual_home_win_rate": 1.0
+          }
+        ]
+      },
+      "home_rate": {
+        "games": 1312,
+        "brier": 0.2500154665611453,
+        "log_loss": 0.6931834836988013,
+        "accuracy": 0.5221036585365854,
+        "mean_probability": 0.5445544554455445,
+        "actual_home_win_rate": 0.5221036585365854,
+        "expected_calibration_error": 0.022450796908959125,
+        "calibration_bins": [
+          {
+            "from": 0.5,
+            "to": 0.6,
+            "games": 1312,
+            "mean_probability": 0.5445544554455445,
+            "actual_home_win_rate": 0.5221036585365854
+          }
+        ]
+      },
+      "coin_flip": {
+        "games": 1312,
+        "brier": 0.25,
+        "log_loss": 0.6931471805599453,
+        "accuracy": 0.5221036585365854,
+        "mean_probability": 0.5,
+        "actual_home_win_rate": 0.5221036585365854,
+        "expected_calibration_error": 0.022103658536585358,
+        "calibration_bins": [
+          {
+            "from": 0.5,
+            "to": 0.6,
+            "games": 1312,
+            "mean_probability": 0.5,
+            "actual_home_win_rate": 0.5221036585365854
+          }
+        ]
+      },
+      "elo": {
+        "games": 1312,
+        "brier": 0.254193129239771,
+        "log_loss": 0.703325064661987,
+        "accuracy": 0.5320121951219512,
+        "mean_probability": 0.5671174186184895,
+        "actual_home_win_rate": 0.5221036585365854,
+        "expected_calibration_error": 0.0754719781515526,
+        "calibration_bins": [
+          {
+            "from": 0.1,
+            "to": 0.2,
+            "games": 1,
+            "mean_probability": 0.18495428790158816,
+            "actual_home_win_rate": 1.0
+          },
+          {
+            "from": 0.2,
+            "to": 0.3,
+            "games": 20,
+            "mean_probability": 0.2577348834237062,
+            "actual_home_win_rate": 0.25
+          },
+          {
+            "from": 0.3,
+            "to": 0.4,
+            "games": 78,
+            "mean_probability": 0.3622527319780618,
+            "actual_home_win_rate": 0.41025641025641024
+          },
+          {
+            "from": 0.4,
+            "to": 0.5,
+            "games": 250,
+            "mean_probability": 0.4583149662564811,
+            "actual_home_win_rate": 0.52
+          },
+          {
+            "from": 0.5,
+            "to": 0.6,
+            "games": 450,
+            "mean_probability": 0.5516271597129757,
+            "actual_home_win_rate": 0.5333333333333333
+          },
+          {
+            "from": 0.6,
+            "to": 0.7,
+            "games": 354,
+            "mean_probability": 0.6467630776793364,
+            "actual_home_win_rate": 0.5056497175141242
+          },
+          {
+            "from": 0.7,
+            "to": 0.8,
+            "games": 142,
+            "mean_probability": 0.7369814877484263,
+            "actual_home_win_rate": 0.6056338028169014
+          },
+          {
+            "from": 0.8,
+            "to": 0.9,
+            "games": 17,
+            "mean_probability": 0.8262484695925201,
+            "actual_home_win_rate": 0.7058823529411765
+          }
+        ]
+      }
+    },
+    "limitations": [
+      "Single untouched season holdout; no market-price or profitability test.",
+      "MoneyPuck historical xG is a current retrospective snapshot, not point-in-time archived xG.",
+      "Goalies, injuries and travel are not model inputs. Home advantage is learned by the intercept."
+    ]
+  },
+  "provenance": {
+    "git_commit": "640c39fde884325754f807982e8b20bd9eba1faa",
+    "python": "3.12.16",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "xg_compact_sha256": "16a80c56dae77e3e1af69b56b3bde20d177c9caad6e9e6665ad93ca7b65a00bf",
+    "cache_events": [
+      {
+        "key": "96b3509af860f0131bc9d2da86fefcdf6c69e5d12f60328f064c24a3e56e8ac0",
+        "cache": "hit",
+        "fetched_at": 1794681432.3322985
+      },
+      {
+        "key": "c164a9a0252e31c545d0134043b3daa53f207a28a663fc9cbb343d47ccb7aa71",
+        "cache": "hit",
+        "fetched_at": 1794681432.553171
+      },
+      {
+        "key": "8c51d4668e846642b6166783dc65a11b3981c93eb9aca024d632b5def015b6c6",
+        "cache": "hit",
+        "fetched_at": 1794681432.7396607
+      },
+      {
+        "key": "4f3f0008b87f0a38985c696948f15b7945bf224a9954c0127830ed5c7aa7668a",
+        "cache": "hit",
+        "fetched_at": 1794681432.9531457
+      },
+      {
+        "key": "5b31ada169053f1b7fcc8c00031974f08b4220cf54d93b82976b4a0304523169",
+        "cache": "hit",
+        "fetched_at": 1794681433.1241975
+      },
+      {
+        "key": "999a4ab3c962cd5bfd0eba2cf4b6ee1135739d60daa5ae561857326329546be6",
+        "cache": "hit",
+        "fetched_at": 1794681433.3004596
+      },
+      {
+        "key": "62c4ba46333cb4002482a44d52d0d1a30dce2222774da1bb492aa236ce000969",
+        "cache": "hit",
+        "fetched_at": 1794681433.483442
+      },
+      {
+        "key": "7b05eaf7adcf163ac10fca57f42bc97ffab5f37cb32039a16547ac023f70b6f2",
+        "cache": "hit",
+        "fetched_at": 1794681433.6965444
+      },
+      {
+        "key": "d6e5f1fee260e857736a52d04a83f8c3d0829b9c38b09dc72cade7e8e41282f7",
+        "cache": "hit",
+        "fetched_at": 1794681433.8890371
+      },
+      {
+        "key": "a52697987eab8b4b93a3ee1a929c823093ca821b752326849d4d452a3247481e",
+        "cache": "hit",
+        "fetched_at": 1794681434.0644052
+      },
+      {
+        "key": "dfbca6449bafe63546e32e69cea0471642cc397e8c4bb6a06ebe9a55f77486fb",
+        "cache": "hit",
+        "fetched_at": 1794681434.3053873
+      },
+      {
+        "key": "269a9fc178135eca6995c67a78be24c54f9dfdfb7af2a93d9b54b7f962ce7d57",
+        "cache": "hit",
+        "fetched_at": 1794681434.501135
+      },
+      {
+        "key": "d693f4ad8805af584e06e81eadad905b54ff98b4efa34116c855dab9f8b2e09b",
+        "cache": "hit",
+        "fetched_at": 1794681434.6845968
+      },
+      {
+        "key": "9b8aa3985ab113354cf269d4c97ec5b0d5c5fa6e5189a579d450fa44089948db",
+        "cache": "hit",
+        "fetched_at": 1794681434.7473176
+      },
+      {
+        "key": "866430291490466ee18a9cf1d67a8aff455f4cd65ee269f2791bde155e58ceac",
+        "cache": "hit",
+        "fetched_at": 1794681434.9388325
+      },
+      {
+        "key": "666300aa0e044d7ff12e8bf60dfc3fa417733f4d35937d7f9007b22d7073cfaa",
+        "cache": "hit",
+        "fetched_at": 1794681435.110093
+      },
+      {
+        "key": "32b70f0cc4a9ada62871473b9715eb024b0f009f21f680cbca1b0c0d463c53d8",
+        "cache": "hit",
+        "fetched_at": 1794681435.2918823
+      },
+      {
+        "key": "d7c58f949a5df068d8c788125c54e2f7f7960fe41dfaaff07c8c06c4acb6542b",
+        "cache": "hit",
+        "fetched_at": 1794681435.4723113
+      },
+      {
+        "key": "94fd699ba24f8f82af662c7a6e6d5a9fd776df2ecf672f9191875bfd4967f64b",
+        "cache": "hit",
+        "fetched_at": 1794681435.676002
+      },
+      {
+        "key": "33e3697423126a6679ea5374d781c3df195190634530d9b8916bbe50efda6aad",
+        "cache": "hit",
+        "fetched_at": 1794681435.8394723
+      },
+      {
+        "key": "30265ed9ba0a2a6894aa15f8e9ffe339a59fbece62be52a8bedb4bb5f18a4f21",
+        "cache": "hit",
+        "fetched_at": 1794681436.0224679
+      },
+      {
+        "key": "ae8c827c16c984ff734db6cf97430c7178245f38e60305c3875dddd9bf1e9258",
+        "cache": "hit",
+        "fetched_at": 1794681436.2081232
+      },
+      {
+        "key": "c5cf9d2d6f8e6b41369ac2ccda57abec4772dd20401f3a15066525d351dd38e2",
+        "cache": "hit",
+        "fetched_at": 1794681436.3994262
+      },
+      {
+        "key": "7a0f36bd6bd562b7774fe7f6556643188fb1ea0e4d9c2de4dbdb223021c47a3b",
+        "cache": "hit",
+        "fetched_at": 1794681436.5899794
+      },
+      {
+        "key": "e0cd8ba27cc9be73290a9db9fc06905351ddc6ae69108b26027c5bd12646f41a",
+        "cache": "hit",
+        "fetched_at": 1794681436.7618518
+      },
+      {
+        "key": "09984b543682b17dc44b500759ce5141034d1c47df682948c308f1a928dc70b3",
+        "cache": "hit",
+        "fetched_at": 1794681436.964816
+      },
+      {
+        "key": "f2ecad00888f2814fc62c3a49b03717ada173e2dc2fe37a982b4f76c93a42efe",
+        "cache": "hit",
+        "fetched_at": 1794681437.1495862
+      },
+      {
+        "key": "a794213f257ae0e92e0e272ad5fb8f1910ed51464d988ca58129c71c5d17b14c",
+        "cache": "hit",
+        "fetched_at": 1794681437.3323302
+      },
+      {
+        "key": "fb2069847780ab7af1fa2800035cb7f7c52a241d487c482f9a02f1cac52afaaa",
+        "cache": "hit",
+        "fetched_at": 1794681437.561444
+      },
+      {
+        "key": "b09b94af3154ca887f64d4d016c2eea69e9aec51d5fcdc28f33ea5e3c1b371dc",
+        "cache": "hit",
+        "fetched_at": 1794681437.7434938
+      },
+      {
+        "key": "3225f75d30ce4352f09f222919194e05e9e0b706008d576dc9ef53fbecfbdb43",
+        "cache": "hit",
+        "fetched_at": 1794681437.9218423
+      },
+      {
+        "key": "26465550e46251e510d690ede854a2076b193128869bc5297e099dbc7344c2c0",
+        "cache": "hit",
+        "fetched_at": 1794681438.131804
+      },
+      {
+        "key": "7cd39b885337d75a0f5cf4b0ef427bea3a1e5f68745b428811167c6d67f3fdbe",
+        "cache": "hit",
+        "fetched_at": 1794681438.294729
+      },
+      {
+        "key": "7f58c09f803ad5c17eebd4312d68b8836680bae324ea652a33702b868ec03d96",
+        "cache": "hit",
+        "fetched_at": 1794681438.4561524
+      },
+      {
+        "key": "9789f95c4083b551698a9fa3ede178fa0eb39fa706ebf36fcdd698bcd2e13be8",
+        "cache": "hit",
+        "fetched_at": 1794681438.6404757
+      },
+      {
+        "key": "dfec5bad3ad42b279bb0cace0de5de3bba047d961495c612e0fe9e3a9552681b",
+        "cache": "hit",
+        "fetched_at": 1794681438.8038442
+      },
+      {
+        "key": "3286d8600efe0150fd53967fe3a0ed7b1bd838983a3c9e0a61042d396580369e",
+        "cache": "hit",
+        "fetched_at": 1794681438.974476
+      },
+      {
+        "key": "f3b54fd5c0d6b66dbff07ea575aea6b2bf7f9b7c5ccb3fea1df3dde89b0825b9",
+        "cache": "hit",
+        "fetched_at": 1794681439.1349936
+      },
+      {
+        "key": "1c606d66feb5146027ca0b0e5554d193114c1fcd3dd662d49894126df2f1651b",
+        "cache": "hit",
+        "fetched_at": 1794681439.305268
+      },
+      {
+        "key": "8704df3830607f85b59285ace504ead7ab010acf4599fd7beb93a889ed49c78a",
+        "cache": "hit",
+        "fetched_at": 1794681439.5091715
+      },
+      {
+        "key": "20152df0d737d02b1331af4ba72bf62d32a2c32a62c1ce0879a661f7f8ca8cf4",
+        "cache": "hit",
+        "fetched_at": 1794681439.7517104
+      },
+      {
+        "key": "ebddcdaff1aab864ae09ad2737d37c9d96cbe759d0c7976f2a7eebea0a9f4d67",
+        "cache": "hit",
+        "fetched_at": 1794681439.9017842
+      },
+      {
+        "key": "846d9b09fa891751539123761773133d88f1a73d615270cb124fec745d4a56f9",
+        "cache": "hit",
+        "fetched_at": 1794681440.087439
+      },
+      {
+        "key": "779347ec40c9678bd96b69f9ed0e5c21219f3c7bcb8117b2abf7b9d27cbae64b",
+        "cache": "hit",
+        "fetched_at": 1794681440.2706397
+      },
+      {
+        "key": "cad23235917b554d1b75b91c23c44a724312a5deae7a6b239fcada3eae807c41",
+        "cache": "hit",
+        "fetched_at": 1794681440.4583833
+      },
+      {
+        "key": "3ca7635699064a51e8eb7db3ff2a174b5ad9e407e881a8b035126e25fae26666",
+        "cache": "hit",
+        "fetched_at": 1794681440.6175878
+      },
+      {
+        "key": "0a1a7057b1c103a03eb410f844593fdf002d28c4a63bc68ed07753e84b142972",
+        "cache": "hit",
+        "fetched_at": 1794681440.788571
+      },
+      {
+        "key": "8990b948237f6c7ac2a1029b043597cbb292ddf38c57a1cf4a0463adcaba1dbb",
+        "cache": "hit",
+        "fetched_at": 1794681440.9693604
+      },
+      {
+        "key": "2c2d5fe08f09faf62b1db3a775c5db62f1bec4a26c33ef66adeea66d40010d58",
+        "cache": "hit",
+        "fetched_at": 1794681441.148735
+      },
+      {
+        "key": "be800c99da9679ad0acf94cca40a298a525233ba63e4a077bc5eae1056c11294",
+        "cache": "hit",
+        "fetched_at": 1794681441.3300765
+      },
+      {
+        "key": "91ca4c594dcb8389c363e56ec9a948c9896f9ee9813b0d173f9c8e1470b497a0",
+        "cache": "hit",
+        "fetched_at": 1794681441.5159476
+      },
+      {
+        "key": "a086847cd59113620c4520a455eddccd5f3f7e54df83e70cd97cb401f0fb8de1",
+        "cache": "hit",
+        "fetched_at": 1794681441.6918492
+      },
+      {
+        "key": "72cf385e9e56fe70faaa7f0b76444de5a7f057dadedee5458fff9af66b86674c",
+        "cache": "hit",
+        "fetched_at": 1794681441.8657198
+      },
+      {
+        "key": "aee8328c2223537d2c7d02ba5ab9d3c91fe67b58dcccab1fa816a9db558fc0a2",
+        "cache": "hit",
+        "fetched_at": 1794681442.0650303
+      },
+      {
+        "key": "d146147bcef872ba83c293ddb82030ff04541d87d144fa143431420784522891",
+        "cache": "hit",
+        "fetched_at": 1794681442.2323909
+      },
+      {
+        "key": "e6087acb783d6325abe9a38e2d832c0289034c414d7729deb6fbc4f839571c0f",
+        "cache": "hit",
+        "fetched_at": 1794681442.4270213
+      },
+      {
+        "key": "2407ecce82d71beb56baaf57e75ac24f5eb59cee399b2dd6fd67d23332dccd19",
+        "cache": "hit",
+        "fetched_at": 1794681442.5919027
+      },
+      {
+        "key": "0d19ce86731b1dfdd500d2ec22ba1a6a8c48f5ce3a11f31210ec99bff1ed9e37",
+        "cache": "hit",
+        "fetched_at": 1794681442.7798114
+      },
+      {
+        "key": "d2c6015e608412942df5b8ac0b51654cbd5cb355e7dab11eca28926c3dea0fe1",
+        "cache": "hit",
+        "fetched_at": 1794681442.8204985
+      },
+      {
+        "key": "2af72c167302bd4eec73731a826c1b4946732bb68ad0337ba67c037970e7c8fa",
+        "cache": "hit",
+        "fetched_at": 1794681442.97452
+      },
+      {
+        "key": "ea0970093a64ca765abbe8483af0b65b3a32f7de376f787f3c788ccdbc5d1f27",
+        "cache": "hit",
+        "fetched_at": 1794681443.1602054
+      },
+      {
+        "key": "334eb73e5c73a73c03017d97ca940901a24eb9161e293dc717bdab349ca26f37",
+        "cache": "hit",
+        "fetched_at": 1794681443.3365138
+      },
+      {
+        "key": "2df57d42e0feedc7fff31a310cba9e76c3c1c9a42642d4a1cb98cd4c05bed407",
+        "cache": "hit",
+        "fetched_at": 1794681443.5244405
+      },
+      {
+        "key": "c903d820172f209a409c345e58577a3f86f169963e86c254df0edb77e3fa9ca7",
+        "cache": "hit",
+        "fetched_at": 1794681443.6902726
+      },
+      {
+        "key": "c5039fccfda0e8eeaf85029495bbca000d62836a4cc2e386c8a4ec22f679b454",
+        "cache": "hit",
+        "fetched_at": 1794681443.860545
+      },
+      {
+        "key": "0e50c16ec021b6d75a574d9cdc8cacd8050e586a3f7168691558cdd5f88d071d",
+        "cache": "hit",
+        "fetched_at": 1794681443.9025173
+      },
+      {
+        "key": "0f7b0baebd90f3f7a41837767f995b6ecd046b9fce0447848f4d4e2fc37ab34d",
+        "cache": "hit",
+        "fetched_at": 1794681443.9428768
+      },
+      {
+        "key": "b714261601f336fbe3b1df4d3861c3d6b12c21c1a0e8c965ce98ee16d523cb93",
+        "cache": "hit",
+        "fetched_at": 1794681443.9822705
+      },
+      {
+        "key": "578d5cd1e410777c38c9c78ad338a2f76bf957abd2479749e3816115ee71b3b8",
+        "cache": "hit",
+        "fetched_at": 1794681444.0281217
+      },
+      {
+        "key": "020f3538544d3f94aee247a6ec85b67e8425f45a82d2c5e9f6d3745bfc56326a",
+        "cache": "hit",
+        "fetched_at": 1794681444.070928
+      },
+      {
+        "key": "69aa77b91c13f77dbfd636818826bc7e560b0813224a9b4c961e16e15e684b2d",
+        "cache": "hit",
+        "fetched_at": 1794681444.1131372
+      },
+      {
+        "key": "4d8d2c08d79f530eab7a7752573708bf6211e8878cdb27060c42c89ec60ee921",
+        "cache": "hit",
+        "fetched_at": 1794681444.1494727
+      },
+      {
+        "key": "6688ab2d7a92c44a27c82581fce44efeef14ef52c341f146183c2d3e9c2cb946",
+        "cache": "hit",
+        "fetched_at": 1794681444.1941779
+      },
+      {
+        "key": "57834095914c5adc1da04458f662b3b949230555d8987ecc10ea88616cc71fbf",
+        "cache": "hit",
+        "fetched_at": 1794681444.2398856
+      },
+      {
+        "key": "6dbedf885708475323aa7b3238104ee4ab92c7175b77a35bff6cbb6067990098",
+        "cache": "hit",
+        "fetched_at": 1794681444.2758625
+      },
+      {
+        "key": "d5abd8b2b6562bc548325e074d7764840e718eaf5efbd5899a7d04c5734d67d3",
+        "cache": "hit",
+        "fetched_at": 1794681444.336516
+      },
+      {
+        "key": "2bfb6219eb06af84819bb2dac2f91790188328304d4af68644c8028c955f1783",
+        "cache": "hit",
+        "fetched_at": 1794681444.378646
+      },
+      {
+        "key": "89232cca1add8dbbc5cd5c6470d7d3fead9f1f7a7e31c3898b9eb36359a30006",
+        "cache": "hit",
+        "fetched_at": 1794681444.4180977
+      },
+      {
+        "key": "b25462bd4a91ef8ac85e19d4e6d5e009443296c4e0d360ad6132e82b961bb928",
+        "cache": "hit",
+        "fetched_at": 1794681444.4671316
+      },
+      {
+        "key": "5b7fa9c5180f44a13ee0019ed05f4e3d0238416dd4bd160fda976996df2dd3e9",
+        "cache": "hit",
+        "fetched_at": 1794681444.5109215
+      },
+      {
+        "key": "7ec760b7ab4210c520ca5ca92f9fe194ab83872b7b5e452041fd39759dc0e10c",
+        "cache": "hit",
+        "fetched_at": 1794681444.6612659
+      },
+      {
+        "key": "2f914f67cda82e71aee1bdaaf0d3b24c7a2d7b690c27bd9556697486559e1240",
+        "cache": "hit",
+        "fetched_at": 1794681444.705117
+      },
+      {
+        "key": "49a020c74b72a7f59fa159de329a69c2a5a2e81b46d511a42defb1e9358d032e",
+        "cache": "hit",
+        "fetched_at": 1794681444.8980575
+      },
+      {
+        "key": "27e280032cf7ae45761db9f7466341dc664254fb164e7a004e7b9bc097f78b0c",
+        "cache": "hit",
+        "fetched_at": 1794681444.926738
+      },
+      {
+        "key": "3e771b670d557b54a6d45faedb855962751c2c4b862059f3ffac46c446a8861f",
+        "cache": "hit",
+        "fetched_at": 1794681444.9565427
+      },
+      {
+        "key": "5f42da7ebe1a92e5f64cba0ba239f04899e6f9d26936cc009eb8e1473fece034",
+        "cache": "hit",
+        "fetched_at": 1794681444.9944863
+      },
+      {
+        "key": "3fd4dab30cc48f07c4620cdd64d90f941cecd03018dbad67d76c20d622945279",
+        "cache": "hit",
+        "fetched_at": 1794681445.0352745
+      },
+      {
+        "key": "bac2a42b41aa8693ecfdc49dab1ef504ebd0fc771ac34b450b64d6b855b39967",
+        "cache": "hit",
+        "fetched_at": 1794681445.077405
+      },
+      {
+        "key": "57ea486ffd12fb2405c2af13fe4f35984e776b6aa3314917290f37b5d6246b2d",
+        "cache": "hit",
+        "fetched_at": 1794681445.1154132
+      },
+      {
+        "key": "712a5fb586b592d4c1ddb9f413a01cf9762e482ecbab51fdbea81abee2b1f815",
+        "cache": "hit",
+        "fetched_at": 1794681445.1606512
+      },
+      {
+        "key": "498a84bae96ae6a95fb815f056142754c4ddfe2f98c68065d45df4b3d58ce03f",
+        "cache": "hit",
+        "fetched_at": 1794681445.2033203
+      },
+      {
+        "key": "4fa153019f250128974039b429839b2886900ec3ac88e570ae4fd3d52d20146c",
+        "cache": "hit",
+        "fetched_at": 1794681445.3946664
+      },
+      {
+        "key": "2b3df236f009cc33d271b3b3c8438025a522b8aeaa79720410e53eab2f73f442",
+        "cache": "hit",
+        "fetched_at": 1794681445.5751796
+      },
+      {
+        "key": "f239f7e81915154b3057307d86c080e9982563f317b74b43f96a475882625518",
+        "cache": "hit",
+        "fetched_at": 1794681445.618491
+      },
+      {
+        "key": "5b348ee4d1828041f95fd2fd190e1ab66519a97e932a7ef7a8b4d5afc4fe6b5b",
+        "cache": "hit",
+        "fetched_at": 1794681445.6708004
+      },
+      {
+        "key": "e45fd42cfe7b6f10ad255168d4e78fdf960898c1cfbbc0bdb79b509dd1ac4fc5",
+        "cache": "hit",
+        "fetched_at": 1794681445.7294333
+      },
+      {
+        "key": "90b42589452233b26b06d5af731a1b7833ac761a1b7e085b5de5de0cd5d214a2",
+        "cache": "hit",
+        "fetched_at": 1794681445.7625794
+      },
+      {
+        "key": "28a315ca1aa5f679d652a2913df783e4d437fb22de151a94772b8503d475c601",
+        "cache": "hit",
+        "fetched_at": 1794681445.7892094
+      },
+      {
+        "key": "414740eafaa197e60d856722157a854e4fe542d93f2453f8819cd81a3f960e2a",
+        "cache": "hit",
+        "fetched_at": 1794681445.8425634
+      },
+      {
+        "key": "aadd2b90384c897bf94ac04731ebf5c2ef7b32dcfb39ce114c1be44e43447351",
+        "cache": "hit",
+        "fetched_at": 1794681445.8732364
+      },
+      {
+        "key": "f52caad84baa6862dc21d219d39d5a37fdae2356f5a955be87f951f03aad96e8",
+        "cache": "hit",
+        "fetched_at": 1794681445.9152124
+      },
+      {
+        "key": "818e0990467961436a715414c9fd97a999895de9f5a031ca51db839da4b72ec6",
+        "cache": "hit",
+        "fetched_at": 1794681445.9447849
+      },
+      {
+        "key": "c143ebe702a0cd2bd406385dec2f40c93a33f698ee8accffa9b5bc1196356f79",
+        "cache": "hit",
+        "fetched_at": 1794681445.9711177
+      },
+      {
+        "key": "df2bd198af58152852e242df23aca048eea8bffed83c86b891b98291f1fe2674",
+        "cache": "hit",
+        "fetched_at": 1794681446.012521
+      },
+      {
+        "key": "84b6d81640e2e57928d2578544e7148717af90215e70d52c7facb852a1858e1d",
+        "cache": "hit",
+        "fetched_at": 1794681446.0393906
+      },
+      {
+        "key": "af63afa19e0bf9ac63c6fed2a7cb10da0f1a11ff29850ea8d1958106ddaf1c66",
+        "cache": "hit",
+        "fetched_at": 1794681446.0674932
+      },
+      {
+        "key": "2927387fc725153fe5e283fdcd4f81b10dba0ad4e34ff2a6570d8cb36962a64f",
+        "cache": "hit",
+        "fetched_at": 1794681446.0990918
+      },
+      {
+        "key": "965ff186a938e4ae0526b195f003a9253d57cb3a7a268943c787936c6e56cae1",
+        "cache": "hit",
+        "fetched_at": 1794681446.1293683
+      },
+      {
+        "key": "f1d43967f16d117b31e796de1bca7413573064d3826ab44ff8ef75544643dc7b",
+        "cache": "hit",
+        "fetched_at": 1794681446.1654246
+      },
+      {
+        "key": "c8737d3b1c9e1a84e394238b58a632aaa002350d27516dee13d459b05ecd7054",
+        "cache": "hit",
+        "fetched_at": 1794681446.199234
+      },
+      {
+        "key": "70633892f1a93d0eb6981de43707cc8d8a4312f44b84da041e32eab31ccc1f1b",
+        "cache": "hit",
+        "fetched_at": 1794681446.226906
+      },
+      {
+        "key": "182e6b81583242d77726ef13ef2b03086a85e3b92b475e6d0e887d2020c1d07c",
+        "cache": "hit",
+        "fetched_at": 1794681446.2551293
+      },
+      {
+        "key": "615880000417a18f86ed5f1affdc0fa61246e56ec5bdcb58d29e57ec63f32b6b",
+        "cache": "hit",
+        "fetched_at": 1794681446.2903147
+      },
+      {
+        "key": "fab43df893391e70fd01362390ffe96a0df682a3b5bfd4e77b365be152beef76",
+        "cache": "hit",
+        "fetched_at": 1794681446.324472
+      },
+      {
+        "key": "94a376179fa363dd131cf3f20b8891c9fdad0f7104f8efd461fe0210001afe55",
+        "cache": "hit",
+        "fetched_at": 1794681446.3528666
+      },
+      {
+        "key": "a4b0f8635b83372b114fe028cc66e7a3d19a2becf095a819ca12dd0fab944df7",
+        "cache": "hit",
+        "fetched_at": 1794681446.3812127
+      },
+      {
+        "key": "0a2b5f377163d4677944cc0befc508c0da84f876cb14397dd7af7e10d0fe2cdf",
+        "cache": "hit",
+        "fetched_at": 1794681446.4113555
+      },
+      {
+        "key": "97cdc0f632d590eaf8588fea5a890a24adf4d2f6ed2eb590eaa69071df430777",
+        "cache": "hit",
+        "fetched_at": 1794681446.4444063
+      },
+      {
+        "key": "0d81d1add5e0fde0c8162d95faa0b5596cba0388a8e4a20db2d10aab8b93a1b8",
+        "cache": "hit",
+        "fetched_at": 1794681446.4721467
+      },
+      {
+        "key": "392bfa8b2b9457276530b0ae6f0006d7f36a2e15e60ab014e30fb48c809646c1",
+        "cache": "hit",
+        "fetched_at": 1794681446.498182
+      },
+      {
+        "key": "8d115117545b7164141d6eae820d03e000a40cfcb495b9567071528eb5e9a06f",
+        "cache": "hit",
+        "fetched_at": 1794681446.5266163
+      },
+      {
+        "key": "73ebd9dc45daecc0c55d06db9e7cfe3ddefab1f0482d3be123171a42ee6d404c",
+        "cache": "hit",
+        "fetched_at": 1794681446.556386
+      },
+      {
+        "key": "3e6eb375656f27cd09420c138cdefa8b383fa2d2b3bdf522183b199f5565aa16",
+        "cache": "hit",
+        "fetched_at": 1794681446.5843492
+      },
+      {
+        "key": "22c5e8c0eb870c81a4a30d13ef92921a1d80b7b981f3b5eb95f3c2f6b6bf8132",
+        "cache": "hit",
+        "fetched_at": 1794681446.6110525
+      },
+      {
+        "key": "af9b787d5f7736c606ee68d5eb9962a65807d5b1b038acd4e52acbb794f1c8bb",
+        "cache": "hit",
+        "fetched_at": 1794681446.6396933
+      },
+      {
+        "key": "027c68293c87b23cd9489cf8c5898ac29169c6695a6ee4ee9e1e61f4bfec7700",
+        "cache": "hit",
+        "fetched_at": 1794681446.6722057
+      },
+      {
+        "key": "0291e36df5c5ccf70d4c276679a20f0ba765f93e562b9b2699baa613619f3fb3",
+        "cache": "hit",
+        "fetched_at": 1794681446.7018502
+      },
+      {
+        "key": "8904e3690e104648c6a84a54762a23db825c0473ee26f4c219418c392b949de7",
+        "cache": "hit",
+        "fetched_at": 1794681446.7321055
+      },
+      {
+        "key": "moneypuck-compact-2023-v1",
+        "cache": "hit",
+        "fetched_at": 1794681465.1404364
+      },
+      {
+        "key": "2a27a445e0c896e212ce0ff0932dfe05b9c92f6f62698068b49d6c20d2e7e0a4",
+        "cache": "hit",
+        "fetched_at": 1794681465.5428207
+      }
+    ],
+    "history_cutoff_exclusive": "2026-11-14"
+  }
+}
