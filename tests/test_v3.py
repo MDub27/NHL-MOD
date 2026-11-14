@@ -62,6 +62,15 @@ class DataTests(unittest.TestCase):
                     return payload
             with self.assertRaises(DataError):schedule(Fake(),'2026-11-14')
 
+    def test_weekly_schedule_inherits_date_from_parent_day(self):
+        g=raw(date='2026-11-14');del g['gameDate']
+        class Fake:
+            def get(self,endpoint,validator,ttl):
+                payload={'gameWeek':[{'date':'2026-11-14','numberOfGames':1,'games':[g]}]}
+                validator(payload)
+                return payload
+        self.assertEqual(schedule(Fake(),'2026-11-14')[0]['date'],'2026-11-14')
+
     def test_cache_ttl_immutable_and_corrupt_recovery(self):
         with tempfile.TemporaryDirectory() as tmp:
             clock=[100.]
