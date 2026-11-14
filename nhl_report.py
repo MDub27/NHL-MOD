@@ -94,7 +94,9 @@ def build_report(games, history, xg, target, now):
                                    'home intercept', 'days rest (capped at 7)', 'back-to-back indicator'],
             'planned_features': ['verified starting goalies and historical pregame goalie GSAx',
                                  'timestamped injuries', 'validated travel distance/timezones'],
-            'warnings': ['Model probabilities are provisional estimates, not guaranteed win rates.',
+            'research_only': True,
+            'warnings': ['Experimental ML candidate has not demonstrated superiority to the goals/rest-only baseline; no automatic model promotion.',
+                         'Model probabilities are provisional estimates, not guaranteed win rates.',
                          'No market prices supplied: expected value is not evaluated.',
                          'Totals follow unchanged V1 official final-score convention; verify market overtime/shootout settlement rules.',
                          'Combinations exclude started games. Same-game selections have bounds only; do not multiply their probabilities.'],
@@ -155,6 +157,7 @@ def main():
             raise DataError('Requested-day schedule disagrees with club schedules')
         now = dt.datetime.now(UTC)
         report = build_report(upcoming, history, xg, args.date, now)
+        report['holdout_validation'] = validation if validation else {'status': 'not_run_in_this_invocation; consult all/backtest artifact'}
         xg_fingerprint = hashlib.sha256(json.dumps(sorted(xg.values(), key=lambda r:(r['id'],r['team'])), sort_keys=True).encode()).hexdigest()
         report['provenance'] = {'git_commit': subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip(),
                                 'python': platform.python_version(), 'numpy': np.__version__, 'sklearn': sklearn.__version__,
