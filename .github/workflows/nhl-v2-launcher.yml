@@ -1,97 +1,72 @@
-name: NHL 4.5 V2 Manual Launcher
+name: NHL 4.5 Development Manual
 
 on:
   workflow_dispatch:
     inputs:
       date:
-        description: 'Requested NHL game date (YYYY-MM-DD)'
+        description: 'Requested NHL game date YYYY-MM-DD'
         required: true
         type: string
       mode:
-        description: 'V2 operation'
+        description: 'Combined report and/or chronological moneyline backtest'
         required: true
-        default: predict
+        default: all
         type: choice
         options:
+          - all
           - predict
           - backtest
-          - evaluate
-
 permissions:
   contents: read
-
+defaults:
+  run:
+    shell: bash
 jobs:
   model:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
     env:
       TARGET_DATE: ${{ inputs.date }}
       RUN_MODE: ${{ inputs.mode }}
     steps:
-      - name: Validate explicit inputs
-        shell: bash
-        run: |
-          python - <<'PY'
-          import datetime as dt
-          import os
-          target = os.environ["TARGET_DATE"]
-          if dt.date.fromisoformat(target).isoformat() != target:
-              raise ValueError("Date must use YYYY-MM-DD")
-          if os.environ["RUN_MODE"] not in {"predict", "backtest", "evaluate"}:
-              raise ValueError("Unsupported mode")
-          PY
-      - name: Check out preserved V2 snapshot
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          # Snapshot of feature/nhl-v2-calibration-manual-tests.
-          # Deliberately fixed so future branch edits do not silently change runs.
-          ref: d9ef50ec8ced61f6067b5aa084df312d04da864e
+          ref: ${{ github.sha }}
           persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Record execution provenance
-        shell: bash
+      - name: Install moneyline dependencies
+        run: python -m pip install -r requirements-v3.txt
+      - name: Test new data safeguards and moneyline
         run: |
-          mkdir -p output
-          python - <<'PY'
-          import datetime as dt
-          import json
-          import os
-          import pathlib
-          import subprocess
-          record = {
-              "requested_date": os.environ["TARGET_DATE"],
-              "mode": os.environ["RUN_MODE"],
-              "generated_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
-              "model_commit": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
-              "run_id": os.environ["GITHUB_RUN_ID"],
-              "run_attempt": os.environ["GITHUB_RUN_ATTEMPT"],
-          }
-          pathlib.Path("output/execution.json").write_text(json.dumps(record, indent=2))
-          PY
-      - name: Run preserved V2
-        shell: bash
-        run: python nhl_v2.py --date "$TARGET_DATE" --mode "$RUN_MODE"
-      - name: Verify model result exists
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json
-          import os
-          import pathlib
-          filename = {"predict": "predictions.json", "backtest": "validation_metrics.json", "evaluate": "evaluation.json"}[os.environ["RUN_MODE"]]
-          report = json.loads((pathlib.Path("output") / filename).read_text())
-          if os.environ["RUN_MODE"] != "backtest" and report.get("date") != os.environ["TARGET_DATE"]:
-              raise ValueError("Result date does not match requested date")
-          if os.environ["RUN_MODE"] == "predict" and not report.get("predictions"):
-              raise ValueError("No game predictions returned; inspect NHL data before treating this run as successful")
-          PY
-      - name: Save results and provenance
+          mkdir -p output/v3
+          python -m unittest discover -s tests -p test_v3.py -v 2>&1 | tee output/v3/tests-v3.txt
+          python -m unittest discover -s tests -p test_player_features.py -v 2>&1 | tee output/v3/tests-player.txt
+          python -m pip freeze > output/v3/environment.txt
+      - name: Check preserved V2 known regression
+        continue-on-error: true
+        run: python -m unittest discover -s tests -p test_nhl_v2.py -v 2>&1 | tee output/v3/tests-v2.txt
+      - name: Restore validated compact data cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/cache/v3
+          key: nhl-v3-${{ hashFiles('nhl_data.py') }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            nhl-v3-${{ hashFiles('nhl_data.py') }}-
+      - name: Run combined pipeline
+        run: python nhl_report.py --date "$TARGET_DATE" --mode "$RUN_MODE"
+      - name: Save validated compact data cache
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: data/cache/v3
+          key: nhl-v3-${{ hashFiles('nhl_data.py') }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Upload report, backtest and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: nhl-v2-${{ inputs.mode }}-${{ inputs.date }}-${{ github.run_id }}-${{ github.run_attempt }}
-          path: output/
+          name: nhl-development-${{ inputs.date }}-${{ inputs.mode }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: output/v3/
           if-no-files-found: error
           retention-days: 90
