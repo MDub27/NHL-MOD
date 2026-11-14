@@ -2,8 +2,6 @@ name: NHL 4.5 Model
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '15 16 * * *'
 
 permissions:
   contents: read
