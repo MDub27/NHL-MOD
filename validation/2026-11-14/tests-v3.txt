@@ -1,0 +1,25 @@
+test_cache_ttl_immutable_and_corrupt_recovery (test_v3.DataTests.test_cache_ttl_immutable_and_corrupt_recovery) ... ok
+test_club_partial_and_duplicate_payloads (test_v3.DataTests.test_club_partial_and_duplicate_payloads) ... ok
+test_date_cutoff_includes_neither_same_day_nor_future (test_v3.DataTests.test_date_cutoff_includes_neither_same_day_nor_future) ... ok
+test_date_format_and_invalid_dates (test_v3.DataTests.test_date_format_and_invalid_dates) ... ok
+test_final_validation_rejects_missing_scores_and_ties (test_v3.DataTests.test_final_validation_rejects_missing_scores_and_ties) ... ok
+test_invalid_refresh_does_not_poison_existing_cache (test_v3.DataTests.test_invalid_refresh_does_not_poison_existing_cache) ... ok
+test_live_scores_are_not_history (test_v3.DataTests.test_live_scores_are_not_history) ... ok
+test_money_puck_filter_and_invalid_values (test_v3.DataTests.test_money_puck_filter_and_invalid_values) ... ok
+test_partial_season_cannot_be_cached_as_complete (test_v3.DataTests.test_partial_season_cannot_be_cached_as_complete) ... ok
+test_requested_day_and_game_count_required (test_v3.DataTests.test_requested_day_and_game_count_required) ... ok
+test_retry_timeout_and_permanent_failure (test_v3.DataTests.test_retry_timeout_and_permanent_failure) ... ok
+test_weekly_schedule_inherits_date_from_parent_day (test_v3.DataTests.test_weekly_schedule_inherits_date_from_parent_day) ... ok
+test_correlation_bounds_not_independent_same_game (test_v3.ModelTests.test_correlation_bounds_not_independent_same_game) ... ok
+test_holdout_labels_do_not_affect_fit_or_calibration (test_v3.ModelTests.test_holdout_labels_do_not_affect_fit_or_calibration) ... ok
+test_metrics_and_probability_complements (test_v3.ModelTests.test_metrics_and_probability_complements) ... ok
+test_rest_and_missing_xg_flags (test_v3.ModelTests.test_rest_and_missing_xg_flags) ... ok
+test_same_day_and_future_outcomes_cannot_change_features (test_v3.ModelTests.test_same_day_and_future_outcomes_cannot_change_features) ... ok
+test_snapshots_do_not_overwrite (test_v3.ModelTests.test_snapshots_do_not_overwrite) ... ok
+test_win_label_includes_one_goal_overtime_or_shootout_wins (test_v3.ModelTests.test_win_label_includes_one_goal_overtime_or_shootout_wins) ... ok
+test_xg_only_enters_history_after_its_game (test_v3.ModelTests.test_xg_only_enters_history_after_its_game) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.070s
+
+OK
