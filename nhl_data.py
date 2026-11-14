@@ -193,12 +193,13 @@ def schedule(client, requested_date):
             raise DataError('Schedule game count mismatch')
         ids = set()
         for g in day['games']:
-            row = normalize_game(g)
+            # Weekly API carries gameDate on the parent day; club feeds carry it per game.
+            row = normalize_game({**g, 'gameDate': g.get('gameDate', day['date'])})
             if row['date'] != requested_date or row['id'] in ids:
                 raise DataError('Schedule date mismatch or duplicate game')
             ids.add(row['id'])
     payload = client.get('/schedule/' + requested_date, validate, ttl=300)
-    return [normalize_game(g) for d in payload['gameWeek'] if d['date'] == requested_date
+    return [normalize_game({**g, 'gameDate': g.get('gameDate', d['date'])}) for d in payload['gameWeek'] if d['date'] == requested_date
             for g in d['games'] if g['gameType'] == 2]
 
 
